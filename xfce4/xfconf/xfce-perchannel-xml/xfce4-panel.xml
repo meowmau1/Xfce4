@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=2880;y=16"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="16"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="7"/>
+        <value type="int" value="3"/>
+        <value type="int" value="15"/>
+        <value type="int" value="4"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="5"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="background-alpha" type="uint" value="76"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+    </property>
+    <property name="dark-mode" type="bool" value="true"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="actions">
+      <property name="items" type="array">
+        <value type="string" value="+restart"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="+suspend"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="tasklist"/>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+    </property>
+    <property name="plugin-5" type="string" value="clock"/>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="evolution-alarm-notify"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="pragha music player"/>
+        <value type="string" value="simplescreenrecorder"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="insync.py"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="variety"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="bluetooth"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="scp-dbus-service.py"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="clipit"/>
+        <value type="string" value="dropbox"/>
+      </property>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="zoom"/>
+        <value type="string" value="simplescreenrecorder"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="dropbox"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="insync"/>
+        <value type="string" value="variety"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="clipman"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="pamac-tray"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="ProtonVPN Tray"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="Mumble"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="Skype1"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="variety"/>
+      </property>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="firefox.instance10355;firefox.instance20486;firefox.instance22491;firefox.instance25496;firefox.instance31875;firefox.instance33050;firefox.instance3580;firefox.instance3582;firefox.instance3584;firefox.instance3587;firefox.instance3588;firefox.instance3589;firefox.instance3591;firefox.instance3599;firefox.instance3605;firefox.instance3612;firefox.instance3616;firefox.instance3619;firefox.instance3622;firefox.instance3623;firefox.instance3628;firefox.instance3629;firefox.instance3651;firefox.instance3662;firefox.instance3663;firefox.instance3664;firefox.instance3737;firefox.instance3756;firefox.instance3784;firefox.instance3786;firefox.instance3797;firefox.instance3803;firefox.instance3827;firefox.instance3862;firefox.instance3880;firefox.instance3881;firefox.instance3884;firefox.instance3899;firefox.instance3948;firefox.instance4079;firefox.instance4089;firefox.instance4121;firefox.instance42058;firefox.instance4272;firefox.instance5310;firefox.instance53793;firefox.instance54383;firefox.instance5592;firefox.instance5647;firefox.instance5862;firefox.instance6267;firefox.instance6702;firefox.instance7190;firefox.instance7949;firefox.instance8193;firefox.instance8318;firefox.instance9622;firefox.instance9836;pragha;spotify;vlc"/>
+    </property>
+    <property name="plugin-7" type="string" value="whiskermenu"/>
+  </property>
+</channel>
